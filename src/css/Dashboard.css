@@ -1,0 +1,24 @@
+.dashboard-container {
+    padding: 5px;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin-left: 75px;
+    font-family: Ubuntu;
+    font-size: 10px;
+  }
+  @media (max-width: 768px) {
+    .dashboard-container {
+        margin-left: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-container {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+  

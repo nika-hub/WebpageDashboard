@@ -1,0 +1,59 @@
+.order-status-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .order-status-card {
+    background-color: #333;
+    padding: 21px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .order-status-card h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  .order-status-card p {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .order-status-card .positive-change {
+    color: #4caf50; 
+    margin-left: 35px;
+    font-size:10px;
+  }
+  
+  .order-status-card .negative-change {
+    color: #f44336; 
+    margin-left: 35px;
+    font-size: 10px;
+  }
+  @media (max-width: 768px) {
+    .order-status-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-status-item {
+        font-size: 10px;
+    }
+
+    .order-status-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .upward-arrow, .downward-arrow {
+        font-size: 18px;
+    }
+}

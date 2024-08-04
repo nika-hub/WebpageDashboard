@@ -1,0 +1,89 @@
+.iconcontainer {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 35%;
+    margin-left: 650px;
+    margin-top: -240px;
+    position: relative; 
+}
+
+.icon-card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 2.5px; 
+    margin-left: 15px;
+    height: 38px;
+}
+
+.icon-card-icon {
+    color: #8884d8; 
+    font-size: 1px;
+}
+
+.icon-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+}
+
+.icon-card-title {
+    margin: 0;
+    font-size: 12px;
+}
+
+.icon-card-arrow {
+    font-size: 20px;
+    background-color: #f0f0f0; 
+    color: #000; 
+    padding: 5px; 
+    border-radius: 50%; 
+}
+
+.icon-card:nth-child(1) .icon-card-icon {
+    color: #ff6347;
+}
+
+.icon-card:nth-child(2) .icon-card-icon {
+    color: #4682b4;
+}
+
+.icon-card:nth-child(3) .icon-card-icon {
+    color: #32cd32; 
+}
+
+@media (max-width: 768px) {
+    .iconcontainer {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-card {
+        flex-direction: column;
+        height: 100px;
+    }
+   .icon-card .icon-card-icon{
+    margin-top: 50px;
+    font-size: 10;
+   }
+   .icon-card-content {
+    width: 80%;
+    margin-top: -200px;
+}
+    
+}

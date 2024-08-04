@@ -1,0 +1,90 @@
+.navcontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #272936;
+  align-items: center;
+  padding-top: 20px;
+}
+.dashnav{
+  display: flex;
+  flex-direction: column;
+  background-color: #272936;
+  align-items: center;
+}
+.dashicon{
+  color:#4557b6;
+  font-size: 40px;
+  align-items: center;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+
+.navItem {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.iconName {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.navItem:hover .iconName {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .navcontainer {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .navItem {
+    margin-bottom: 0;
+  }
+
+  .iconName {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashicon {
+    font-size: 18px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}

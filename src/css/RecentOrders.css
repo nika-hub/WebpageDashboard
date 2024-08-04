@@ -1,0 +1,101 @@
+.recent-orders-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 15px;
+  }
+  .recent-orders-container h3{
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 17px;
+  }
+  .orders-table {
+    width: 100%;
+    color: #fff;
+    border-collapse: collapse;
+  }
+  
+  .orders-table th{
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: start;
+    font-family: Ubuntu;
+    font-size: 13px;
+  }
+  .orders-table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: start;
+    font-family: Ubuntu;
+    font-size: 11px;
+  }
+  
+  .orders-table th {
+    background-color: #555;
+  }
+
+  .profile-icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #666; 
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+  .profile-icon {
+    display: inline-block;
+    width: 15px;  
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 3px;
+    color: #333;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 12px;
+  }
+  
+  .delivered {
+    background-color: #4caf50; 
+    color: #fff;
+  }
+  
+  .cancelled {
+    background-color: #f44336; 
+    color: #fff;
+  }
+  
+  .pending {
+    background-color: #ff9800; 
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .recent-orders-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-item {
+        font-size: 10px;
+    }
+
+    .profile-icon-container{
+        width: 15px;
+        height: 15px;
+    }
+
+    .order-status {
+        font-size: 12px;
+    }
+}

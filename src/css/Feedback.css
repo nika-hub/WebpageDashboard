@@ -1,0 +1,94 @@
+.feedback-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 35%;
+  margin: 0 auto;
+  max-height: 700; 
+  overflow-y: auto;
+  margin-left: 650px;
+  margin-top: -450px;
+  margin-bottom: 40px;
+  height: 400px;
+}
+
+.feedback-container h3 {
+  font-size: 17px;
+  font-family: Ubuntu;
+  text-align: left;
+  margin-top: -4px;
+}
+
+.feedback-item {
+  margin-bottom: 18px;
+  margin-top: -4px;
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feedback-profile-icon {
+  margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #595959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.feedback-header h4 {
+  font-size: 12px;
+}
+
+.star-icon {
+  color: gold;
+  margin-right: 5px;
+}
+
+.feedback-rating {
+  margin-bottom: 10px;
+}
+
+.feedback-comment {
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.feedback-item hr {
+  border: 0;
+  height: 1px;
+  background: rgb(99, 97, 97);
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .feedback-container {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feedback-item {
+      font-size: 14px;
+  }
+
+  .feedback-profile-icon {
+      width: 25px;
+      height: 25px;
+  }
+
+  .feedback-header h4, .feedback-comment {
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "orders": {
+      "totalOrders": 75,
+      "totalDelivered": 70,
+      "totalCancelled": 5,
+      "totalRevenue": "$12k"
+    },
+    "netprofit":{
+      "netProfit": "$6759.25",
+      "completionRate": "70%"
+    },
+    "activity": [
+      { "day": 5, "value": 5000 },
+      { "day": 6, "value": 3000 },
+      { "day": 7, "value": 4000 },
+      { "day": 8, "value": 6000 },
+      { "day": 9, "value": 7000 },
+      { "day": 10, "value": 8000 },
+      { "day": 11, "value": 10000 },
+      { "day": 12, "value": 12000 },
+      { "day": 13, "value": 13000 },
+      { "day": 14, "value": 14000 },
+      { "day": 15, "value": 15000 },
+      { "day": 16, "value": 16000 },
+      { "day": 17, "value": 17000 },
+      { "day": 18, "value": 18000 },
+      { "day": 19, "value": 19000 },
+      { "day": 20, "value": 20000 },
+      { "day": 21, "value": 21000 },
+      { "day": 22, "value": 22000 },
+      { "day": 23, "value": 23000 },
+      { "day": 24, "value": 24000 },
+      { "day": 25, "value": 25000 },
+      { "day": 26, "value": 26000 }
+    ],
+    "recentOrders": [
+      { "customer": "Wade Warren", "orderNo": 15478256, "amount": "$124.00", "status": "Delivered" },
+      { "customer": "Jane Cooper", "orderNo": 48965786, "amount": "$305.02", "status": "Delivered" },
+      { "customer": "Guy Hawkins", "orderNo": 78895215, "amount": "$45.88", "status": "Cancelled" },
+      { "customer": "Kristin Watson", "orderNo": 20965732, "amount": "$65.00", "status": "Pending" },
+      { "customer": "Cody Fisher", "orderNo": 95715620, "amount": "$545.00", "status": "Delivered" },
+      { "customer": "Savannah Nguyen", "orderNo": 78514568, "amount": "$128.20", "status": "Delivered" }
+    ],
+    "feedback": [
+      { "customer": "Jenny Wilson", "rating": 5, "comment": "The food was excellent and so was the service." },
+      { "customer": "Dianne Russell", "rating": 5, "comment": "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee." },
+      { "customer": "Devon Lane", "rating": 4, "comment": "Normally wings are wings, but these are lean meaty and tender." }
+    ]
+  }
+  
